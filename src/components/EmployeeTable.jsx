@@ -16,6 +16,7 @@ const RowsPerPage=10;
      setTotalPage(Math.ceil(data.length/RowsPerPage));
     
    } catch (error) {
+    alert("failed to fetch data");
      console.error("Error fetching data",error);
    }
 
